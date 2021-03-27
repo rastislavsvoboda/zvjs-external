@@ -1,5 +1,8 @@
 image: mcr.microsoft.com/dotnet/sdk:5.0-buster-slim
 
+variables:
+    clone_url: "http://172.24.23.135:8081/"
+
 stages:
     - build
     - test
