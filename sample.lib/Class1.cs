@@ -4,6 +4,6 @@ namespace sample.lib
 {
     public class Class1
     {
-        public string Version => "2.0.1";
+        public string Version => "2.0.2";
     }
 }
