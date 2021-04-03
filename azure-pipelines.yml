@@ -11,6 +11,6 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    git push upstream
+    git push upstream master
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
