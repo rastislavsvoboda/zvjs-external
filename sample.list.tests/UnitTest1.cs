@@ -12,7 +12,7 @@ namespace sample.list.tests
 
             var ver = c.Version;
 
-            Assert.Equal("2.0.1", ver);
+            Assert.Equal("2.0.2", ver);
         }
     }
 }
