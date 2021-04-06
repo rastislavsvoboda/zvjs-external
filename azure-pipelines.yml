@@ -13,6 +13,8 @@ steps:
 - script:
     # git remote add upstream http://gitlab.example.com/root/from_azuredevops.git
     git checkout master
+
     git push upstream
+    
     # echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
