@@ -11,7 +11,8 @@ steps:
   displayName: 'Run a one-line script'
 
 - script:
-    # git remote add upstream http://gitlab.example.com/root/from_azuredevops.git
+    git remote set-url upstream http://http://172.24.23.135:8081/root/from_azuredevops.git
+    
     git checkout master
 
     git push upstream
