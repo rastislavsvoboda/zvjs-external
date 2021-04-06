@@ -10,7 +10,8 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: |
+- script:
+    git remote add upstream http://gitlab.example.com/root/from_azuredevops.git
     git push upstream master
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
