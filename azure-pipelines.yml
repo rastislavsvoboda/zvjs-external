@@ -11,7 +11,7 @@ steps:
   displayName: 'Run a one-line script'
 
 - script:
-    git remote add upstream http://gitlab.example.com/root/from_azuredevops.git
+    git remote add upstream http://gitlab.example.com/root/from_azuredevops.git || true
 
     git push upstream master
     # echo See https://aka.ms/yaml
