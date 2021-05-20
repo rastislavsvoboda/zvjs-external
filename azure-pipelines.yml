@@ -6,19 +6,25 @@
 trigger:
 - master
 
+# steps:
+# - script: echo Hello, world!
+#   displayName: 'Run a one-line script'
+
+# - script:
+    
+    
+#     git checkout master
+    
+#     git pull
+
+
+#     git remote set-url upstream https://github.com/rastislavsvoboda/zvjs-external.git && git push upstream
+    
+#     # echo See https://aka.ms/yaml
+#   displayName: 'Run a multi-line script'
+
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script:
-    
-    
-    git checkout master
-    
-    git pull
-
-
-    git remote set-url upstream https://github.com/rastislavsvoboda/zvjs-external.git && git push upstream
-    
-    # echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: BatchScript@1
+  displayName: 'Run script do.bat'
+  inputs:
+    filename: do.bat
