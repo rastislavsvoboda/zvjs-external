@@ -11,7 +11,7 @@ steps:
   displayName: 'Run a one-line script'
 
 - script:
-    git remote set-url upstream http://172.24.23.135:8081/root/from_azuredevops.git
+    git remote set-url upstream https://github.com/rastislavsvoboda/zvjs-external.git
     
     git checkout master
     
